@@ -1,0 +1,16 @@
+PODS:
+  - ZQHttpRequest (0.1.0)
+
+DEPENDENCIES:
+  - ZQHttpRequest (from `../`)
+
+EXTERNAL SOURCES:
+  ZQHttpRequest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZQHttpRequest: 74a79ea3b4c7ac7646a13b5ea52e8b57637e814b
+
+PODFILE CHECKSUM: ba793239ba3625baa41c5e222fa03ef3112ad9ce
+
+COCOAPODS: 1.8.4

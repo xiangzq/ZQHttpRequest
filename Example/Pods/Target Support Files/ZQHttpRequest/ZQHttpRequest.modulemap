@@ -1,0 +1,6 @@
+framework module ZQHttpRequest {
+  umbrella header "ZQHttpRequest-umbrella.h"
+
+  export *
+  module * { export * }
+}
