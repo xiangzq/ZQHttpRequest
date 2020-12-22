@@ -1,16 +1,38 @@
 PODS:
-  - ZQHttpRequest (0.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - ZQHttpRequest (0.1.0):
+    - AFNetworking
 
 DEPENDENCIES:
+  - AFNetworking
   - ZQHttpRequest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   ZQHttpRequest:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZQHttpRequest: 74a79ea3b4c7ac7646a13b5ea52e8b57637e814b
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  ZQHttpRequest: 016a5666e1dfeeefb0d7b8172a0dd973c9e1ed2a
 
-PODFILE CHECKSUM: ba793239ba3625baa41c5e222fa03ef3112ad9ce
+PODFILE CHECKSUM: f42426ab125ba817b9c2c601fea0acd22cf7badc
 
 COCOAPODS: 1.8.4

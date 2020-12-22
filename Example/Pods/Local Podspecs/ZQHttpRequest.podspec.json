@@ -1,7 +1,7 @@
 {
   "name": "ZQHttpRequest",
   "version": "0.1.0",
-  "summary": "A short description of ZQHttpRequest.",
+  "summary": "对AFNetworking的封装",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiangzq/ZQHttpRequest",
   "license": {
@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ZQHttpRequest/Classes/**/*"
+  "source_files": "ZQHttpRequest/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }
