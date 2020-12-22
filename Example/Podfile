@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZQHttpRequest_Example' do
+  pod 'ZQHttpRequest', :path => '../'
+
+  target 'ZQHttpRequest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
